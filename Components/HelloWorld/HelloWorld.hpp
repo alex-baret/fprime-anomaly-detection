@@ -30,6 +30,7 @@ namespace Components {
       ~HelloWorld();
 
     PRIVATE:
+      U32 m_greetingCount;
 
       // ----------------------------------------------------------------------
       // Handler implementations for commands
